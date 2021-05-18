@@ -69,6 +69,7 @@ const Trust = styled(MediumTxt)`
 const BtnWrapper = styled.div`
   display: flex;
   gap: 20px;
+  grid-gap: 20px;
   align-items: center;
   justify-content: center;
 `;

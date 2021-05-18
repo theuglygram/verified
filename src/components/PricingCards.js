@@ -45,6 +45,7 @@ const CardHolder = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+  grid-gap: 20px;
   width: 100%;
   text-align: center;
   align-items: center;

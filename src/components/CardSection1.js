@@ -41,6 +41,7 @@ const CardHolder = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 200px;
+  grid-gap: 200px;
   margin: 44px auto;
   height: 100%;
   @media only screen and (max-width: 650px) {

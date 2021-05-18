@@ -41,6 +41,7 @@ const TextContent = styled(LargeTxt)`
 const BtnHolder = styled.div`
   display: flex;
   gap: 20px;
+  grid-gap: 20px;
   align-items: center;
   justify-content: center;
 `;

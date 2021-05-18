@@ -8,6 +8,11 @@ export const Btn = styled.button`
   outline: none;
   border: none;
   box-shadow: none;
+  transition: 0.5s ease;
+  :hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
 `;
 
 export const SmallTxt = styled.p`

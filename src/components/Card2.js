@@ -33,6 +33,7 @@ const Content = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  grid-gap: 20px;
   @media only screen and (max-width: 650px) {
     grid-template-columns: 1fr;
   }
