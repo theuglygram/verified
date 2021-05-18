@@ -72,12 +72,17 @@ const BtnWrapper = styled.div`
   grid-gap: 20px;
   align-items: center;
   justify-content: center;
+  @media only screen and (max-width: 650px) {
+    grid-gap: 0px;
+    gap: 0px;
+  } ;
 `;
 const Btn1 = styled(Btn)`
   background: #000;
   color: #fff;
   @media only screen and (max-width: 650px) {
     width: 140px;
+    margin: 0 10px;
   } ;
 `;
 const Btn2 = styled(Btn)`
@@ -85,6 +90,7 @@ const Btn2 = styled(Btn)`
   border: 1px solid #999999;
   @media only screen and (max-width: 650px) {
     width: 140px;
+    margin: 0 10px;
   } ;
 `;
 
